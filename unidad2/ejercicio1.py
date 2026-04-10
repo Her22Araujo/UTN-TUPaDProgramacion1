@@ -1,11 +1,11 @@
 notas_estudiantes = []
 cont = 10
-#calculo y promedio de notas
+
 for i in range(cont):
     nota= int(input(f"Por favor ingrese la nota del alumno: {i+1} "))
     notas_estudiantes.append(nota)  
 
-# recorro la lista para buscar mas alto y mas bajo
+
 nota_alta = notas_estudiantes[0]
 nota_baja = notas_estudiantes[0]
 suma=0
